@@ -1,0 +1,6 @@
+{
+  "name": "Glass Music",
+  "description": "Android 15 Liquid Glass Music Player with Apple Music integration boundary and translucent frosted UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

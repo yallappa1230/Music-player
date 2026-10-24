@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Translucent glass disc under music note -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#55FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="76"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#33FFFFFF" />
+                <item android:offset="1.0" android:color="#1038BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing liquid music note silhouette -->
+    <path
+        android:pathData="M64,36 L64,57.5 C62.3,56.5 60.2,56 58,56 C52.5,56 48,60.5 48,66 C48,71.5 52.5,76 58,76 C63.5,76 68,71.5 68,66 L68,44 L78,44 C78,44 78,36 64,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="36"
+                android:endX="78"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#E879F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass reflection highlight -->
+    <path
+        android:pathData="M64,36 L76,43 C74,40 70,37 64,36 Z"
+        android:fillColor="#80FFFFFF" />
+</vector>
